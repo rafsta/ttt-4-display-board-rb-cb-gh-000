@@ -2,9 +2,12 @@
 # out the current state.
 
 def display_board
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
+  board = [" "," "," "," "," "," "," "," "," "]
+  puts " #{board[0]} | #{board[0]} | #{board[0]} "
+    puts "-----------"
+    puts " #{board[0]} | #{board[0]} | #{board[0]} "
+    puts "-----------"
+    puts " #{board[0]} | #{board[0]} | #{board[0]} "
+
+    puts display_board(board)
 end
