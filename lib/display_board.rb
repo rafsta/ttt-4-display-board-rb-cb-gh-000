@@ -4,17 +4,11 @@
 def display_board
 
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  display_board(board)
   board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
-  display_board(board)
   board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
-  display_board(board)
+  board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  display_board(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  display_board(board)
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  display_board(board)
   board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   display_board(board)
 end
