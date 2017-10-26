@@ -3,9 +3,18 @@
 
 def display_board
 
-puts "   |   |   "
-puts "-----------"
-puts "   |   |   "
-puts "-----------"
-puts "   |   |   "
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  display_board(board)
+  board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+  display_board(board)
+  board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+  display_board(board)
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  display_board(board)
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  display_board(board)
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  display_board(board)
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  display_board(board)
 end
