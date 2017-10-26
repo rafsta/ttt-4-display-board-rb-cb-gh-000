@@ -1,6 +1,8 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
+class Board
+
 def empty
   empty = {"1" => " ", "2" => " ", "3" => " ",
                               "4" => " ", "5" => " ", "6" => " ",
@@ -19,4 +21,6 @@ def display_board
   puts " 4 | 5 | 6 "
   puts "-----------"
   puts " 7 | 8 | 9 "
+end
+
 end
