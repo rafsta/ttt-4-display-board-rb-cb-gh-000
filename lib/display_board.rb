@@ -3,6 +3,6 @@
 
 def display_board
   board = [" "," "," "," "," "," "," "," "," "]
-  board[5]=X
+  board[5]="X"
   display_board(board)
 end
